@@ -1,8 +1,8 @@
 ## Branch Naming Convention
 
-feature-shape\
-test-shape
+feature/name/shape
+test/name/shape
 
 Examples:
-- feature-circle
-- test-circle
+- feature/hanif/circle
+- test/hanif/circle
