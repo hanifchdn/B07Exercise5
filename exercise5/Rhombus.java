@@ -2,10 +2,12 @@ package exercise5;
 
 public class Rhombus {
 	double diagonal1, diagonal2;
+	Point center;
 
-	public Rhombus(double diagonal1, double diagonal2) {
+	public Rhombus(double diagonal1, double diagonal2, Point center) {
 		this.diagonal1 = diagonal1;
 		this.diagonal2 = diagonal2;
+		this.center = center;
 	}
 
 	public double perimeter() {
